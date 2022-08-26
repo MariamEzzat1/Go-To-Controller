@@ -1,0 +1,2 @@
+gtc
+-DCATKIN_DEVEL_PREFIX=/home/mariam/GoToController/devel -DCMAKE_INSTALL_PREFIX=/home/mariam/GoToController/install -G Unix Makefiles
