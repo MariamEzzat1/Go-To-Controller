@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find gtc)/config/yfile.yaml" />
+    <node name="position_listener" pkg="gtc" type="gtc_turtlesim.py"/>
+    <node name="velociety_publisher" pkg="gtc" type="gtc_turtlesim.py"/>
+</launch>
